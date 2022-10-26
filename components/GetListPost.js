@@ -29,7 +29,7 @@ const GetListPost = () => {
              <Card key={index}>
                <h2 className="text-2xl">{i?.title}</h2>
                <Link href={`/test/${i?.id}`}>
-                 <p className="body">{i?.body}</p>
+                 <a className="body">{i?.body}</a>
                </Link>
              </Card>
           )
